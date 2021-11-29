@@ -23,11 +23,13 @@ class MainActivity : AppCompatActivity() {
             gender = "Мужчина",
             bloodType = "1",
             address = "Аламедин - 1",
+
             vacHistory = arrayListOf(Vaccine(
                 vacName = "Фласка Маны",
                 date = Date(),
                 address = "Аламедин - 1"
             )),
+
             sicknessHistory = arrayListOf()
         )
         medicalCard.sicknessHistory?.add(Sickness(
